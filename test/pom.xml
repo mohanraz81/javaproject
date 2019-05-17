@@ -19,6 +19,17 @@
 			<version>4.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+		    <groupId>org.apache.struts</groupId>
+		    <artifactId>struts2-core</artifactId>
+		    <version>${struts2.version}</version>
+		    <exclusions>
+			<exclusion>
+			    <artifactId>tools</artifactId>
+			    <groupId>com.sun</groupId>
+			</exclusion>
+		    </exclusions>
+		</dependency>
 	</dependencies>
 
 	<build>
