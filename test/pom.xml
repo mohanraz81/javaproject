@@ -72,12 +72,6 @@
 			<groupId>org.codehaus.mojo</groupId>
 			<artifactId>cobertura-maven-plugin</artifactId>
 			<version>2.7</version>
-			    <exclusions>
-				<exclusion>
-				    <artifactId>tools</artifactId>
-				    <groupId>com.sun</groupId>
-				</exclusion>
-			    </exclusions>
 		 </plugin>
 	</plugins>
 </reporting>
