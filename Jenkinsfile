@@ -11,7 +11,7 @@ node () {
  	
 // Unable to convert a build step referring to "hudson.plugins.build__timeout.BuildTimeoutWrapper". Please verify and convert manually if required.
 // Unable to convert a build step referring to "hudson.plugins.timestamper.TimestamperBuildWrapper". Please verify and convert manually if required.		// Maven build step
-	maven(maven: 'maven-3.5.4') { 
+	withMaven(maven: 'maven-3.5.4') { 
  			if(isUnix()) {
  				sh "mvn -f test/pom.xml install cobertura:cobertura -D cobertura.reports.format=xml " 
 			} else { 
