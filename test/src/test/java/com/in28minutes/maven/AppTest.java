@@ -1,4 +1,3 @@
-package com.in28minutes.maven;
 
 import static org.junit.Assert.*;
 
