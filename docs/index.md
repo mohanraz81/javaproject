@@ -1,3 +1,4 @@
+```markdown
 # Welcome to My Service
 
 ## Overview
@@ -11,3 +12,13 @@ npm start
 
 ## Architecture
 [Architecture diagram here]
+```
+
+### Step 4: Update catalog-info.yaml
+
+Add TechDocs annotation:
+```yaml
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+```
