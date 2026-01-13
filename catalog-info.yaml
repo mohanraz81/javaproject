@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-app
+  description: My application
+  annotations:
+    github.com/project-slug: your-org/your-repo
+  tags:
+    - nodejs
+    - react
+spec:
+  type: service
+  lifecycle: production
+  owner: team-name
+  system: my-system
