@@ -1,0 +1,10 @@
+site_name: 'My Service Docs'
+site_description: 'Documentation for My Service'
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference: api.md
+
+plugins:
+  - techdocs-core
